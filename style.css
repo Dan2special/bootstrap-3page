@@ -1,0 +1,226 @@
+body {
+  font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  background-color: white;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.navhead {
+  position: relative;
+  z-index: 500%;
+}
+
+.header {
+  padding: 15px 25px 15px 20px;
+  background-color: rgb(55, 55, 80);
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.navbar {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.searchbox {
+  height: 20px;
+}
+
+.searchbox a {
+  background-color: none;
+  border-color: green;
+  border-style: groove;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.button-1 {
+  background-color: green;
+  background: none;
+  border: green;
+  text-decoration: none;
+  color: green;
+}
+
+.button-1:hover {
+  background-color: green;
+  color: #fff;
+}
+
+.container {
+  background-color: gray;
+  padding: 170px 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.container2 {
+  max-width: 760px;
+}
+
+.container h1 {
+  font-weight: bold;
+  font-size: 2;
+  margin: 0;
+  line-height: 30px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.container p {
+  font-weight: normal;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+.button {
+  background-color: rgb(12, 95, 190);
+  color: white;
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 1.18rem;
+  display: inline-block;
+}
+
+.button:hover {
+  background-color: rgb(43, 43, 221);
+}
+
+.contain {
+  margin-top: 25px;
+}
+
+.box {
+  float: left;
+  width: 31%;
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
+  margin-bottom: 5%;
+}
+
+#boxed .box {
+  float: left;
+  width: 31%;
+  margin-bottom: 5%;
+}
+
+.box a {
+  background-color: rgb(83, 77, 77);
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.circle {
+  background-color: rgb(92, 84, 84);
+  width: 150px;
+  height: 150px;
+  color: none;
+  text-align: center;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.secondxvv {
+  margin: 7%;
+  display: flex;
+}
+
+.top1 {
+  margin: 7%;
+  max-width: 10%;
+}
+
+.man {
+  position: absolute;
+  right: 60%;
+  width: 500px;
+  height: 120px;
+}
+
+.man2 {
+  position: absolute;
+  left: 50%;
+  width: 500px;
+  height: 120px;
+}
+
+.man3 {
+  float: right;
+  position: absolute;
+  right: 60%;
+  width: 500px;
+  height: 120px;
+}
+
+.boxing1 {
+  margin: auto;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  background-color: gray;
+  color: rgb(238, 228, 228);
+  align-items: center;
+  justify-content: center;
+  margin-right: 40px;
+  font-size: 50px;
+}
+
+.boxing2 {
+  margin: auto;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  background-color: gray;
+  color: rgb(238, 228, 228);
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+}
+
+.boxing3 {
+  margin: auto;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  background-color: gray;
+  color: rgb(238, 228, 228);
+  align-items: center;
+  justify-content: center;
+  margin-right: 80px;
+  font-size: 50px;
+}
+
+.sad{
+  color: rgb(107, 100, 100);
+  font-size: 40px;
+}
+
+.text-muted{
+  color: gray;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+}
